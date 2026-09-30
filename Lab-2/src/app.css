@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 45px;
+}
+
+img {
+  width: 130px;
+  margin-bottom: .5em;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #37474F;
+}
+
+.outerContainer {
+  display: flex;
+  flex: 1 1 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #263238;
+}
+
+.resortCardContainer {
+  text-align: left;
+  display: flex;
+  gap: 1em;
+}
+
+.countryTag {
+  color: white;
+}
+
+.locationTag {
+  color: #455A64;
+}
+
+.priceTag {
+  color: #455A64;
+}

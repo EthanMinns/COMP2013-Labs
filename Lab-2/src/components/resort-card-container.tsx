@@ -7,7 +7,7 @@ export interface ResortCardContainerProps {
 
 function ResortCardContainer({ data }: ResortCardContainerProps) {
   return (
-    <div>
+    <div className="resortCardContainer">
       {data.map((listing) => (
         <ResortCard key={listing.id} {...listing} />
       ))}
